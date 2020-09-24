@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: rgb(109, 106, 106)">
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Daniel Gutierrez">
@@ -14,8 +14,8 @@
     </head>
     <body>
         <form action="data.json" method="POST">
-            <fieldset>
-                <legend>User Information</legend>
+            <fieldset style="background-color: rgb(143, 42, 42)">
+                <legend><strong>User Information</strong></legend>
                     <p>
                         <ul>
                             <li>
@@ -30,8 +30,8 @@
                     </p>
             </fieldset>
 
-            <fieldset>
-                <legend>What drink do you want?</legend>
+            <fieldset style="background-color: rgb(143, 42, 42)">
+                <legend><strong>What drink do you want?</strong></legend>
                     <p>
                         <ul>
                             <li>
@@ -62,47 +62,49 @@
                     </p>
             </fieldset>
 
-            <fieldset>
-                <legend>Pizza Preference</legend>
+            <fieldset style="background-color: rgb(143, 42, 42)">
+                <legend><strong>Pizza Preference</strong></legend>
                     <p>
                         <ul>
                             <li>
                                 <label for="preference_1">
                                 <input type="checkbox" name="preference_1" id="preference_1">
-                                Plain
-                            </label>
+                                    Plain
+                                </label>
                             </li>
                             <li>
-                            <label for="preference_2">
+                                <label for="preference_2">
                                 <input type="checkbox" name="preference_2" id="preference_2">
-                                Pepperoni
-                            </label>
+                                    Pepperoni
+                                </label>
                             </li>
                             <li>
-                            <label for="preference_3">
-                                <input type="checkbox" name="preference_3" id="preference_3">
-                                Chicken
-                            </label>
+                                <label for="preference_3">
+                                    <input type="checkbox" name="preference_3" id="preference_3">
+                                    Chicken
+                                </label>
                             </li>
                             <li>
-                            <label for="preference_4">
-                                <input type="checkbox" name="preference_4" id="preference_4">
-                                Sausage
-                            </label>
+                                <label for="preference_4">
+                                    <input type="checkbox" name="preference_4" id="preference_4">
+                                    Sausage
+                                </label>
                         </ul>
                     </p>
             </fieldset>
 
-            <fieldset>
-                <legend>Special Instructions</legend>
+            <fieldset style="background-color: rgb(143, 42, 42)">
+                <legend><strong>Special Instructions</strong></legend>
                 <p>
                     <ul>
-                        <li><label for="SpecialInstru">Special Instructions</label><br>
-                        <textarea name="user.instru" id="SpecialInstru" cols="30" rows="10">Type Here</textarea></li>
+                        <li>
+                            <label for="SpecialInstru" style="background-color: ">Special Instructions</label><br>
+                            <textarea name="user.instru" id="SpecialInstru" cols="30" rows="10">Type Here</textarea>
+                        </li>
                     </ul>
                 </p>
                 <p>
-                    <button type="submit">Submit</button>
+                    <input type="image" src="submitbutton - Copy.png" border="0" alt="Submit">
                 </p>
             </fieldset>
         </form>
